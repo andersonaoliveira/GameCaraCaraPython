@@ -1,0 +1,100 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>ba7417e2-80cf-4d0e-b4b9-142723ffa663</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>CaraCara.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>CaraCara</Name>
+    <RootNamespace>CaraCara</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="CaraCara.py" />
+    <Compile Include="graphics.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="01.gif" />
+    <Content Include="01pp.gif" />
+    <Content Include="02.gif" />
+    <Content Include="02pp.gif" />
+    <Content Include="03.gif" />
+    <Content Include="03pp.gif" />
+    <Content Include="04.gif" />
+    <Content Include="04pp.gif" />
+    <Content Include="05.gif" />
+    <Content Include="05m.gif" />
+    <Content Include="05p.gif" />
+    <Content Include="05pp.gif" />
+    <Content Include="06.gif" />
+    <Content Include="06pp.gif" />
+    <Content Include="07.gif" />
+    <Content Include="07pp.gif" />
+    <Content Include="08.gif" />
+    <Content Include="08pp.gif" />
+    <Content Include="09.gif" />
+    <Content Include="09pp.gif" />
+    <Content Include="10.gif" />
+    <Content Include="10pp.gif" />
+    <Content Include="11.gif" />
+    <Content Include="11pp.gif" />
+    <Content Include="12.gif" />
+    <Content Include="12pp.gif" />
+    <Content Include="13.gif" />
+    <Content Include="13pp.gif" />
+    <Content Include="14.gif" />
+    <Content Include="14pp.gif" />
+    <Content Include="15.gif" />
+    <Content Include="15pp.gif" />
+    <Content Include="16.gif" />
+    <Content Include="16pp.gif" />
+    <Content Include="17.gif" />
+    <Content Include="17pp.gif" />
+    <Content Include="18.gif" />
+    <Content Include="18pp.gif" />
+    <Content Include="19.gif" />
+    <Content Include="19pp.gif" />
+    <Content Include="20.gif" />
+    <Content Include="20pp.gif" />
+    <Content Include="21.gif" />
+    <Content Include="21pp.gif" />
+    <Content Include="22.gif" />
+    <Content Include="22pp.gif" />
+    <Content Include="23.gif" />
+    <Content Include="23pp.gif" />
+    <Content Include="24.gif" />
+    <Content Include="24pp.gif" />
+    <Content Include="25.gif" />
+    <Content Include="25pp.gif" />
+    <Content Include="26.gif" />
+    <Content Include="26pp.gif" />
+    <Content Include="27.gif" />
+    <Content Include="27pp.gif" />
+    <Content Include="28.gif" />
+    <Content Include="28pp.gif" />
+    <Content Include="29.gif" />
+    <Content Include="29pp.gif" />
+    <Content Include="30.gif" />
+    <Content Include="30pp.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
